@@ -10535,7 +10535,7 @@ header.masthead {
       rgba(114, 182, 190, 0.6) 0%,
       rgba(77, 52, 34, 0.6) 100%
     ),
-    url("../assets/background.png");
+    url("../assets/background-min.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
