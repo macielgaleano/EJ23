@@ -1,15 +1,5 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -165,7 +155,7 @@ small {
 sub,
 sup {
   position: relative;
-  font-size: 75%;
+  font-size: 10px;
   line-height: 0;
   vertical-align: baseline;
 }
@@ -10660,4 +10650,23 @@ a {
 
 hr {
   background: #20c997;
+}
+
+.img_header {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.img_header img {
+  border-radius: 50%;
+}
+
+br {
+  margin-bottom: 10px;
+}
+
+.center {
+  margin: 20px auto;
 }
